@@ -1,0 +1,20 @@
+{
+  "name": "fawry-client",
+  "version": "0.0.2",
+  "description": "Node-Red Boilerplate",
+  "node-red": {
+    "nodes": {
+      "fawry-client": "fawry.js"
+    }
+  },
+  "main": "fawry.js",
+  "scripts": {
+    "test": "mocha \"test/**/*_spec.js\"",
+    "dev": "tsc -w"
+  },
+  "author": "Belal Tarek",
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "3.7.0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "displaySchema": "fawry",
+    "apis": [
+        {
+            "name": "Pet",
+            "resources": [
+                {
+                    "name": "addPet",
+                    "path": ""
+                },
+                {
+                    "name": "updatePet",
+                    "path": ""
+                },
+                {
+                    "name": "deletePet",
+                    "path": ""
+                }
+            ]
+        },
+        {
+            "name": "user",
+            "resources": [
+                {
+                    "name": "addUser",
+                    "path": ""
+                },
+                {
+                    "name": "updateUser",
+                    "path": ""
+                },
+                {
+                    "name": "deleteUser",
+                    "path": ""
+                }
+            ]
+        }
+    ]
+}
